@@ -1,0 +1,144 @@
+body{
+    margin: 0%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+main{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: aqua;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    color: aqua;
+    justify-content: center;
+    background-color: blueviolet;
+}
+
+.header-title{
+    width: 80%;
+    display: flex;
+    color: aquamarine;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.img-container-left{
+    width: 30%;
+    height: 25%;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.text-container-left {
+    margin: 10px;
+}
+
+.container-center {
+    flex: 5;
+    display: flex;
+    overflow: auto;
+    max-height: 505px;
+    overflow-y: scroll;
+    flex-direction: column;
+
+}
+
+.body-title-container-center {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.title-container-center {
+    color: black;
+    margin-left: 20px;
+}
+
+.btn-redirect-old-recife {
+    color: black;
+    font-size: x-large;
+    margin-right: 20px;
+}
+
+.body-text-container-center {
+    flex: 1;
+    display: flex;
+    padding: 20px;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.body-img-container-center {
+    flex: 2;
+    display: flex;
+    max-height: 350px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-right {
+    flex: 1;
+    display: flex;
+}
+
+.footer {
+    height: 60px;
+    display: flex;
+    color: blue;
+    flex-direction: row;
+    background-color: #154194;
+}
+
+.body-newsletter {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.body-label-newsletter {
+    margin: 10px;
+}
+
+.text-label-newsletter {
+    color: aqua;
+}
+
+.body-icon-social-newsletter {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-social-networks {
+    width: 20px;
+    height: 20px;
+}
+
+.testecss {
+    background-color: #154194;
+}
+
+
+
+
